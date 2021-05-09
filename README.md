@@ -59,8 +59,6 @@ user interface of the theme, just follow through these simple steps:
 
 ### Screenshots
 
-<h6 align='center'>Light with <code>ui_separator</code> option on</h6>
-
 ![html](./images/html.png)
 
 ---
