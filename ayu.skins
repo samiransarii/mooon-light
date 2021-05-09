@@ -1,0 +1,8 @@
+{
+  "day-break": {
+    "Preferences": {
+      "color_scheme": "Packages/Themes/day-break-sublime-theme/day-break.sublime-color-scheme",
+      "theme": "day-break.sublime-theme",
+    }
+  }
+}
