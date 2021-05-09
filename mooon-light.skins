@@ -1,0 +1,8 @@
+{
+  "mooon-light": {
+    "Preferences": {
+      "color_scheme": "Packages/mooon-light/mooon-light.sublime-color-scheme",
+      "theme": "mooon-light.sublime-theme",
+    }
+  }
+}

@@ -1,20 +1,20 @@
 {
-  "name": "day-break",
-  "version": "5.0.3",
+  "name": "mooon-light",
+  "version": "1.0.0",
   "description": "Sublime theme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/developedby-sam/day-break-sublime-theme.git"
+    "url": "https://github.com/developedby-sam/mooon-light.git"
   },
   "author": "Samir Ansari",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/developedby-sam/day-break-sublime-theme/issues"
+    "url": "https://github.com/developedby-sam/mooon-light.git/issues"
   },
   "scripts": {
     "build": "ts-node ./src/build.ts"
   },
-  "homepage": "https://github.com/developedby-sam/day-break-sublime-theme#readme",
+  "homepage": "https://github.com/developedby-sam/mooon-light.gite#readme",
   "dependencies": {
     "@types/node": "^11.11.6",
     "ayu": "^7.3.0",

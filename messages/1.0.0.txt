@@ -1,5 +1,5 @@
-day-break theme for Sublime Text 3
-https://github.com/developedby-sam/day-break-sublime-theme
+Mooon Light theme for Sublime Text 3
+https://github.com/developedby-sam/mooon-light
 
 Version 1.0.0
 ********************************************************************************

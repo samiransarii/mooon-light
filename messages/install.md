@@ -1,8 +1,8 @@
-**Day-break theme for Sublime Text 3**
-To learn more about day-break visit https://github.com/developedby-sam/day-break-sublime-theme
+**Mooon Light theme for Sublime Text 3**
+To learn more about day-break visit https://github.com/developedby-sam/mooon-light
 ===============================================================================
 
-Activate Day-break
+Activate Mooon Light
 
 You can also manually activate this theme by adding these lines to your user
 settings (Preferences > Settings - User):
@@ -10,12 +10,12 @@ settings (Preferences > Settings - User):
 Day-break:
 
 ````json
-"theme": "day-break.sublime-theme",
-"color_scheme": "Packages/Themes/day-break-sublime-theme/day-break.sublime-color-scheme",
+"theme": "mooon-light.sublime-theme",
+"color_scheme": "Packages/mooon-light/mooon-light.sublime-color-scheme",
 
 ================================================================================
 
-Day-break provides following options to customize the theme
+Mooon Light provides following options to customize the theme
 
 ```json
 "ui_native_titlebar":       true, // native titlebar on macOs

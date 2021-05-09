@@ -21,36 +21,36 @@ user interface of the theme, just follow through these simple steps:
 6. Copy and paste following content:
    ```json
    [
-   	{
-   		"class": "sidebar_label",
-   		"font.size": 16,
-   		"font.face": "Operator Mono Lig"
-   	},
-   	{
-   		"class": "sidebar_heading",
-   		"font.size": 16,
-   		"font.face": "Operator Mono Lig"
-   	},
-   	{
-   		"class": "tab_label",
-   		"font.size": 14,
-   		"font.face": "Operator Mono Lig"
-   	},
-   	{
-   		"class": "label_control",
-   		"font.size": 14,
-   		"font.face": "Operator Mono Lig"
-   	},
-   	{
-   		"class": "quick_panel_label",
-   		"font.size": 14,
-   		"font.face": "Operator Mono Lig"
-   	},
-   	{
-   		"class": "quick_panel_path_label",
-   		"font.size": 14,
-   		"font.face": "Operator Mono Lig"
-   	}
+      {
+         "class": "sidebar_label",
+         "font.size": 16,
+         "font.face": "Operator Mono Lig"
+      },
+      {
+         "class": "sidebar_heading",
+         "font.size": 16,
+         "font.face": "Operator Mono Lig"
+      },
+      {
+         "class": "tab_label",
+         "font.size": 14,
+         "font.face": "Operator Mono Lig"
+      },
+      {
+         "class": "label_control",
+         "font.size": 14,
+         "font.face": "Operator Mono Lig"
+      },
+      {
+         "class": "quick_panel_label",
+         "font.size": 14,
+         "font.face": "Operator Mono Lig"
+      },
+      {
+         "class": "quick_panel_path_label",
+         "font.size": 14,
+         "font.face": "Operator Mono Lig"
+      }
    ]
    ```
 7. Replace `Operator Mono Lig` with the font of your choice
