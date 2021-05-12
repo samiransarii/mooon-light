@@ -1,6 +1,6 @@
 ![mooon-light](./images/hero.png)
 
-`Mooon Light` is a simple theme with vibrant colors.
+`Mooon Light` is a simple theme with vibrant colors build on pre existing theme which I really like called `ayu`.
 
 ### File Icons
 
@@ -100,7 +100,7 @@ You can install `Mooon Light` via [Package Control](https://packagecontrol.io/).
 
 ###### With Skins package
 
-[Skins](https://packagecontrol.io/packages/Skins) provides a simple and efficient way to change themes, save your own presets and quickly try out new looks. Activation is as simple as opening up the command palette, running `Select Skin` and choosing `Ayu - Dark` or `Ayu - Light` from the list.
+[Skins](https://packagecontrol.io/packages/Skins) provides a simple and efficient way to change themes, save your own presets and quickly try out new looks. Activation is as simple as opening up the command palette, running `Select Skin` and choosing `mooon-light` from the list.
 
 ###### Via Preferences
 

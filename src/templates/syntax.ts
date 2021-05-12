@@ -1,7 +1,7 @@
 import { Scheme } from "ayu";
 
 export default (scheme: Scheme) => ({
-  name: "day-break",
+  name: "mooon-light",
 
   globals: {
     background: scheme.common.bg.hex(),
