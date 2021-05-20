@@ -91,7 +91,7 @@ You can install `Mooon Light` via [Package Control](https://packagecontrol.io/).
 
 ###### Manual
 
-1. Download the [latest release](https://github.com/developedby-sam/mooon-light), extract and rename the directory to `Moon Light`.
+1. Download the [latest release](https://github.com/developedby-sam/mooon-light/releases), extract and rename the directory to `Moon Light`.
 2. Move the directory inside your sublime `/Packages` directory. _(Preferences > Browse packages...)_
 
 ---
