@@ -91,6 +91,9 @@ You can install `Mooon Light` via [Package Control](https://packagecontrol.io/).
 
 ###### Manual
 
+If something is broken installing with the recommended way, it is because [packagecontrol](https://packagecontrol.io) has not pulled the lates release yet,
+So you can do it mannually by:
+
 1. Download the [latest release](https://github.com/developedby-sam/mooon-light/releases), extract and rename the directory to `Mooon Light Theme`.
 2. Move the directory inside your sublime `/Packages` directory. _(Preferences > Browse packages...)_
 
