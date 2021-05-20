@@ -110,8 +110,8 @@ So you can do it mannually:
 Add these lines to your user settings _Preferences > Setting - User_:
 
 ```js
-"theme": "moon-light.sublime-theme",
-"color_scheme": "Packages/moon-light/moon-light.sublime-color-scheme",
+"theme": "mooon-light.sublime-theme",
+"color_scheme": "Packages/Mooon Light Theme/mooon-light.sublime-color-scheme",
 ```
 
 <div align="right"><sup>
