@@ -32,7 +32,7 @@
 		{
 			"class": "sidebar_container",
 			"settings": ["ui_separator"],
-			"layer0.tint": "#030F1B",
+			"layer0.tint": "#030F1D",
 			"layer1.texture": "Mooon Light Theme/assets/separator-right.png",
 			"layer1.inner_margin": [0, 1, 2, 1],
 			"layer1.opacity": 1,
@@ -628,7 +628,7 @@
 			"layer2.texture": "Mooon Light Theme/assets/overlay-bg.png",
 			"layer2.inner_margin": [15, 35, 15, 25],
 			"layer2.opacity": 1,
-			"layer2.tint": "#0d1016",
+			"layer2.tint": "#030F1F",
 			"content_margin": [10, 35, 10, 20]
 		},
 		{
@@ -650,14 +650,14 @@
 		},
 		{
 			"class": "mini_quick_panel_row",
-			"layer0.tint": "#0d1016",
+			"layer0.tint": "#030F1D",
 			"layer0.inner_margin": [2, 2, 2, 2],
 			"layer0.opacity": 1
 		},
 		{
 			"class": "mini_quick_panel_row",
 			"attributes": ["selected"],
-			"layer0.tint": "#00010a"
+			"layer0.tint": "color(#030F1D l(10%))"
 		},
 		{
 			"class": "quick_panel_row",
@@ -673,13 +673,13 @@
 					"class": "overlay_control"
 				}
 			],
-			"layer0.tint": "#0d1016",
+			"layer0.tint": "#030F1F",
 			"layer0.opacity": 1
 		},
 		{
 			"class": "quick_panel_row",
 			"attributes": ["selected"],
-			"layer0.tint": "#00010a"
+			"layer0.tint": "color(#030F1D l(10%)"
 		},
 		{
 			"class": "quick_panel_label",
@@ -1226,6 +1226,14 @@
 			],
 			"color": "#4d5566",
 			"font.bold": false
+		},
+		{
+			"class": "sidebar_button_control",
+			"layer0.tint": "#4d5566",
+		},
+		{
+			"class": "status_container",
+			"content_margin": [5, 5]
 		},
 		{
 			"class": "label_control",

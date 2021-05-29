@@ -9,14 +9,14 @@
   <key>name</key>
   <string>mooon-light</string>
   <key>semanticClass</key>
-  <string>day-break</string>
+  <string>mooon-light</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#0d1016</string>
+        <string>#030F1D</string>
         <key>caret</key>
         <string>#e6b450</string>
         <key>foreground</key>
@@ -24,11 +24,11 @@
         <key>invisibles</key>
         <string>#4d556699</string>
         <key>lineHighlight</key>
-        <string>#00010a</string>
+        <string>#020b14F0</string>
         <key>inactiveSelection</key>
         <string>#1b2733</string>
         <key>selection</key>
-        <string>#273747</string>
+        <string>#020b14F0</string>
         <key>selectionBorder</key>
         <string>#304357</string>
       </dict>
