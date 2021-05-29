@@ -1,6 +1,6 @@
 ![mooon-light](./images/hero.png)
 
-`Mooon Light` is a simple theme with vibrant colors build on pre existing theme which I really like called `ayu`.
+`Mooon Light` is a simple theme with vibrant colors build to make your life easy 😃.
 
 ### File Icons
 
