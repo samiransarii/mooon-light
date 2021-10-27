@@ -2,7 +2,7 @@
     "author": "developedby-sam",
     "name": "day-break color scheme",
     "variables": {
-        "background-color": "#0b182d",
+        "background-color": "#020c1b",
         "gray": "#adadad",
         "charcoal": "#364958",
         "deep-space-sparkle": "#3B6064",
@@ -16,10 +16,10 @@
     "globals": {
         // general-settings
         "background": "color(var(background-color))",
-        "foreground": "#adc5f0",
-        "caret": "#adc5f0",
+        "foreground": "#a8b2d1", //light-slate
+        "caret": "#a8b2d1",
         "block_caret": "color(var(gray))",
-        "line_highlight": "color(#0b182d l(8%))",
+        "line_highlight": "color(#0b182d l(10%))",
         // accents
         "misspelling": "var(deep-space-sparkle)",
         "fold_marker": "var(eton-blue)",
@@ -29,15 +29,15 @@
         "gutter": "var(background-color)",
         "gutter_foreground": "var(charcoal)",
         // gutter-diff
-        "line_diff_width": "2",
-        "line_diff_added": "color(#91b362 l(40%))",
+        "line_diff_width": "3",
+        "line_diff_added": "color(#00a37d l(30%))",
         "line_diff_modified": "color(#6994bf l(50%))",
         "line_diff_deleted": "#d96c75",
         // selections
-        "selection": "color(#ADC5F017 alpha(0.1))",
-        "selection_border": "color(#ADC5F017 alpha(0.2))",
+        "selection": "color(#adc5f017 alpha(0.1))",
+        "selection_border": "color(#adc5f017 alpha(0.2))",
         "selection_border_width": "1",
-        "inactive_selection": "var(gun-metal)",
+        "inactive_selection": "color(var(gun-metal) alpha(0.5))",
         "inactive_selection_foreground": "#b3b1ad4d",
         "selection_corner_style": "square",
         "selection_corner_radius": "3",
@@ -55,7 +55,7 @@
             "name": "Comment",
             "scope": "comment",
             "font_style": "italic",
-            "foreground": "var(deep-space-sparkle)"
+            "foreground": "#495670" //dark-slate
         },
         {
             "name": "String",
@@ -85,7 +85,7 @@
         {
             "name": "Variable",
             "scope": "variable",
-            "foreground": "#b3b1ad"
+            "foreground": "#a8b2d1" //slate
         },
         {
             "name": "Member Variable",
@@ -108,7 +108,7 @@
             "name": "Keyword",
             "scope": "keyword",
             "font_style": "italic",
-            "foreground": "#9471C1"
+            "foreground": "#bd93f9" // previous-purple-used: #9471c1
         },
         {
             "name": "Java keyword fixes",
@@ -118,17 +118,17 @@
         {
             "name": "Operators",
             "scope": "keyword.operator",
-            "foreground": "#8963bb"
+            "foreground": "#bd93f9"
         },
         {
             "name": "Separators like ; or ,",
             "scope": "punctuation.separator, punctuation.terminator",
-            "foreground": "#b3b1adb3"
+            "foreground": "#a8b2d1" //slate
         },
         {
             "name": "Punctuation",
             "scope": "punctuation.section",
-            "foreground": "#b3b1ad"
+            "foreground": "#a8b2d1" //slate
         },
         {
             "name": "Accessor",
@@ -169,7 +169,7 @@
         {
             "name": "Function call",
             "scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
-            "foreground": "#DE7954"
+            "foreground": "#de7954"
         },
         {
             "name": "Library function",
@@ -184,7 +184,7 @@
         {
             "name": "Entity name",
             "scope": "entity.name, source.js meta.function-call.constructor variable.type",
-            "foreground": "#0AA5FF"
+            "foreground": "#0aa5ff"
         },
         {
             "name": "Tag",
@@ -200,7 +200,7 @@
             "name": "Tag attribute",
             "scope": "entity.other.attribute-name",
             "font_style": "italic",
-            "foreground": "#AC7299"
+            "foreground": "#bb8bab"
         },
         {
             "name": "Library constant",
@@ -248,18 +248,18 @@
             "name": "CSS Properties",
             "scope": "support.type.property-name",
             "font_style": "normal",
-            "foreground": "#C66C74"
+            "foreground": "#c66c74"
         },
         {
             "name": "CSS Classes and Ids",
             "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, entity.other.attribute-name.id.scss, entity.other.attribute-name.class.scss",
             "font_style": "italic",
-            "foreground": "#2AA260"
+            "foreground": "#00a37d"
         },
         {
             "name": "CSS Attributes",
             "scope": "source.css entity.other.attribute-name, source.sass entity.other.attribute-name,  source.scss entity.other.attribute-name, source.less entity.other.attribute-name, source.stylus entity.other.attribute-name",
-            // "font_style": "italic",
+            "font_style": "italic",
             "foreground": "#cc9246"
         },
         {
