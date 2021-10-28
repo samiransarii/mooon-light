@@ -20,5 +20,4 @@ Mooon Light provides following options to customize the theme
 ```json
 "ui_native_titlebar":       true, // native titlebar on macOs
 "ui_separator":             true, // separators between panels
-"ui_wide_scrollbars":       false, // wider scrollbars
 ````

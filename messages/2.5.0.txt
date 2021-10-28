@@ -1,0 +1,15 @@
+Mooon Light theme for Sublime Text
+https://github.com/developedby-sam/mooon-light
+
+Version 2.5.0
+********************************************************************************
+
+  * The modern Sublime Text theme.
+
+  CHANGES:
+
+      * Improved UI contrast 
+      * Improved UI for windows
+      * Improved quick panels and mini quick panel
+      * Improved ST4 support
+      * Improved sidebar visuals
