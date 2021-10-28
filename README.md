@@ -104,11 +104,13 @@ You can install `Mooon Light` via [Package Control](https://packagecontrol.io/).
 
 ### Activation
 
-###### With Command Palette
+###### Via Command Palette
 
 1. Press <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette.
 2. Type `select color scheme` and press enter. Then search for `mooon-light.sublime-color-scheme` or `mooon-light-highcontrast.sublime-color-scheme` (which ever you prefer) and press enter.
 3. Again in command palette Type `select theme` and press enter. Then search for `mooon-light.sublime-theme` and press enter.
+
+###### Via Skins
 
 [Skins](https://packagecontrol.io/packages/Skins) provides a simple and efficient way to change themes, save your own presets and quickly try out new looks. Activation is as simple as opening up the command palette, running `Select Skin` and choosing `mooon-light` from the list.
 
@@ -122,5 +124,5 @@ Add these lines to your user settings _Preferences > Setting - User_:
 ```
 
 <div align="right"><sup>
-  trying to make your day easy by<a href="https://github.com/developedby-sam">@developedby-sam</a>
+  made with :heart: by <a href="https://github.com/developedby-sam">@developedby-sam</a>
 </sup></div>
