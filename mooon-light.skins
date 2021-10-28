@@ -1,7 +1,13 @@
 {
-  "mooon-light": {
+  "Mooon Light": {
     "Preferences": {
       "color_scheme": "Packages/Mooon Light Theme/mooon-light.sublime-color-scheme",
+      "theme": "mooon-light.sublime-theme",
+    }
+  },
+  "Mooon Light High Contrast": {
+    "Preferences": {
+      "color_scheme": "Packages/Mooon Light Theme/mooon-light-highcontrast.sublime-color-scheme",
       "theme": "mooon-light.sublime-theme",
     }
   }
