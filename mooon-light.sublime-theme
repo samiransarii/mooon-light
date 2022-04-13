@@ -4,6 +4,7 @@
   	========================================================================= */
 	{
 		"class": "title_bar",
+		"settings": ["themed_title_bar"],
 		"bg": "#171c28",
 		"fg": "#8695b7"
 	},
@@ -141,7 +142,7 @@
 		"attributes": ["selected"],
 		"layer0.tint": "color(#030F1D l(10%))"
 	},
-		// // Quick panel project setting (project manager) (cmd + ctrl + p)
+		// Quick panel project setting (project manager) (cmd + ctrl + p)
 	{
 		"class": "quick_panel",
 		"row_padding": [32, 12],
@@ -261,7 +262,7 @@
 		"class": "sidebar_heading",
 		"color": "#6886b6",
 		"font.bold": true,
-		"font.size": 14
+		"font.size": 16
 	},
 	// Sidebar rows
 	{
@@ -274,7 +275,6 @@
 	{
 		"class": "tree_row",
 		"layer0.texture": "Mooon Light Theme/assets/tree-highlight-separators.png",
-		"settings": ["ui_separator"]
 	},
 	// Sidebar rows hover
 	{
@@ -297,13 +297,13 @@
 	{
 		"class": "sidebar_label",
 		"fg": "#69748C",
-		"font.size": 13
+		"font.size": 14
 	},
 	// **Settings
 	{
 		"class": "sidebar_label",
 		"settings": ["sidebar_font_large"],
-		"font.size": 14
+		"font.size": 16
 	},
 	{
 		"class": "sidebar_label",
@@ -351,8 +351,7 @@
 				"attributes": ["expandable"]
 			}
 		],
-		"settings": ["bold_folder_labels"],
-		"font.bold": true
+		"font.bold": false
 	},
 	{
 		"class": "sidebar_label",
@@ -586,6 +585,7 @@
 		],
 		"layer0.tint": "#e6b450"
 	},
+	// ========================================================================
 	/* @ TABS
   	* Tabs settings and behaviours
   	========================================================================= */
@@ -617,22 +617,12 @@
 	},
 	{
 		"class": "tabset_control",
-		"settings": ["ui_separator"],
 		"content_margin": [0, 0, 0, 0],
 		"layer0.tint": "#030F1B",
 		"layer1.opacity": 1,
 		"layer1.texture": "Mooon Light Theme/assets/separator-bottom.png",
 		"layer1.tint": "#00010a",
 		"layer1.inner_margin": [1, 0, 1, 2]
-	},
-	{
-		"class": "tabset_control",
-		"platforms": ["osx"],
-		"settings": ["ui_separator", "!ui_native_titlebar"],
-		"layer2.opacity": 1,
-		"layer2.texture": "Mooon Light Theme/assets/separator-top.png",
-		"layer2.tint": "#00010a",
-		"layer2.inner_margin": [1, 2, 1, 0]
 	},
 	{
 		"class": "tab_control",
@@ -655,7 +645,6 @@
 	},
 	{
 		"class": "tab_control",
-		"settings": ["ui_separator"],
 		"layer0.tint": "color(#020b14F0 l(10%)",
 		"layer1.opacity": 1,
 		"layer2.opacity": 1,
@@ -665,44 +654,15 @@
 	{
 		"class": "tab_control",
 		"attributes": ["selected"],
-		"settings": ["!ui_separator"],
 		"layer3.tint": "color(#020b14F0 l(10%)",
 		"layer3.opacity": 1
 	},
 	{
 		"class": "tab_control",
 		"attributes": ["selected"],
-		"settings": ["ui_separator"],
 		"layer0.tint": "color(#020b14F0)",
 		"layer1.tint": "#9FB2D1",
 		"layer3.opacity": 0
-	},
-	{
-		"class": "tab_control",
-		"attributes": ["hover"],
-		"settings": ["!ui_separator"],
-		"layer3.tint": "color(#020b14F0 l(10%)",
-		"layer3.opacity": 0.3
-	},
-	// Hovered tab
-	{
-		"class": "tab_control",
-		"attributes": ["hover"],
-		"settings": ["ui_separator"],
-		"layer0.tint": "color(#020b14F0 l(10%)"
-	},
-	// Selected hover
-	{
-		"class": "tab_control",
-		"attributes": ["selected", "hover"],
-		"settings": ["!ui_separator"],
-		"layer3.opacity": 1
-	},
-	{
-		"class": "tab_control",
-		"attributes": ["selected", "hover"],
-		"settings": ["ui_separator"],
-		"layer0.tint": "color(#020b14F0 l(10%))"
 	},
 	// Tabs labels
 	{
@@ -720,17 +680,6 @@
 		"fg": "#e6b450"
 	},
 	// Tab selected label color
-	{
-		"class": "tab_label",
-		"parents": [
-			{
-				"class": "tab_control",
-				"attributes": ["selected"]
-			}
-		],
-		"fg": "#ffcc66",
-		"font.italic": true
-	},
 	{
 		"class": "tab_label",
 		"parents": [
@@ -828,7 +777,7 @@
 	{
 		"class": "scroll_tabs_left_button",
 		"content_margin": [12, 15],
-		"layer0.texture": "Mooon Light Theme/assets/arrow-left.png",
+		"layer0.texture": "Mooon Light Theme/assets/arrow-right.png",
 		"layer0.tint": "#4d5566",
 		"layer0.opacity": 1
 	},
@@ -840,7 +789,7 @@
 	{
 		"class": "scroll_tabs_right_button",
 		"content_margin": [12, 15],
-		"layer0.texture": "Mooon Light Theme/assets/arrow-right.png",
+		"layer0.texture": "Mooon Light Theme/assets/arrow-left.png",
 		"layer0.tint": "#4d5566",
 		"layer0.opacity": 1
 	},
@@ -848,14 +797,6 @@
 		"class": "scroll_tabs_right_button",
 		"attributes": ["hover"],
 		"layer0.tint": "#ffcc66"
-	},
-	{
-		"class": "scroll_tabs_right_button",
-		"settings": ["ui_separator"],
-		"layer2.texture": "Mooon Light Theme/assets/separator-right.png",
-		"layer2.tint": "#00010a",
-		"layer2.opacity": 1,
-		"layer2.inner_margin": [0, 1, 2, 1]
 	},
 	{
 		"class": "show_tabs_dropdown_button",
@@ -870,6 +811,7 @@
 		"attributes": ["hover"],
 		"layer0.tint": "#ffcc66"
 	},
+
 	/* @ MINIMAP
   	* Minimap settings and behaviours
   	========================================================================= */
@@ -1025,7 +967,8 @@
 		"shadow_color": [0, 0, 0, 0],
 		"shadow_offset": [0, 0],
 		"font.bold": false,
-		"font.size": 12
+		"font.size": 12,
+		"content_margin": [4, 2]
 	},
 	// Status bar labels
 	{
@@ -1036,11 +979,11 @@
 			}
 		],
 		"color": "#8695b7",
-		"font.bold": false
+		"font.bold": false,
 	},
 	{
 		"class": "sidebar_button_control",
-		"layer0.tint": "#8695b7"
+		"layer0.tint": "#8695b7",
 	},
 	// Text field labels
 	{
@@ -1055,13 +998,12 @@
 	},
 	{
 		"class": "status_bar",
-		"settings": ["ui_separator"],
 		"layer0.tint": "#070b12",
-		"layer1.opacity": 1
+		"layer1.opacity": 1,
 	},
 	{
 		"class": "status_container",
-		"content_margin": [0, 6]
+		"content_margin": [6, 0]
 	},
 	{
 		"class": "label_control",
@@ -1070,7 +1012,11 @@
 				"class": "button_control"
 			}
 		],
-		"color": "#8695b7"
+		"color": "#8695b7",
+	},
+	{
+		"class": "status_button",
+		"content_margin": [8, 4]
 	},
 	{
 		"class": "label_control",
@@ -1084,7 +1030,7 @@
 	},
 	{
 		"class": "title_label_control",
-		"color": "#e6b450"
+		"color": "#e6b450",
 	},
 	/* @ WIDGET PANEL
   	* Widget, input, buttons and behaviours
