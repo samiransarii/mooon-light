@@ -73,6 +73,14 @@ user interface of the theme, just follow through these simple steps:
 
 ---
 
+![js](./images/js.png)
+
+---
+
+![java](./images/java.png)
+
+---
+
 ![python](./images/python.png)
 
 ### Recommended Settings
@@ -80,8 +88,19 @@ user interface of the theme, just follow through these simple steps:
     If you want your theme to look as close as in the screenshots, copy these in your settings
 
 ```js
-"ui_native_titlebar":       true, // use native titlebars on macOs
-"ui_separator":             true, // separators between panels
+"ui_native_titlebar":               true/false, // use native titlebars on macOs
+"ui_separator":                     true/false, // separators between panels
+"themed_title_bar":                 true/false, // customized title bar for windows
+"sidebar_large":                    true/false, // for bigger sidebar
+"sidebar_small":                    true/false, // for smaller sidebar
+ "sidebar_font_large":              true/false, // bigger sidebar font
+ "sidebar_font_small":              true/false, // smaller sidebar font
+ "bold_folder_labels":              true/false, // bold folder labels
+ "tabs_large":                      true/false, // bigger tabs
+ "tabs_small":                      true/false, // smaller tabs
+ "enable_tab_scrolling":            true/false, // enable or disable tab scrolling
+ "highlight_modified_tabs":         true/false, // highliht modified tabs
+ "always_show_minimap_viewport":    true/false, // always show minimap viewport
 ```
 
 ---
